@@ -1,9 +1,16 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+ /* HEADER START*/
+header {
+    position: relative;
+}
 nav {
     height: 50px;
     background-color: #212121;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 .menu {
     display: flex;
@@ -30,6 +37,9 @@ nav {
 }
 
 .subheader {
+    position: absolute;
+    top:50px;
+    width: 100%;
     height: 87px;
     background: rgba(0, 0, 0, .6);
 }
@@ -74,4 +84,50 @@ nav {
     border-radius: 4px;
     border: none;
     
+}
+
+ /* END OF HEADER */
+
+ .promo {
+    padding: 202px 0 185px 0;
+    min-height: 100%;
+    text-align: center;
+    background: url('../img/bg/uber_bg.jpg') center center/ cover no-repeat;
+    color: #fff;
+ }
+ .promo_header {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+ }
+ .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+ }
+ .promo_offer {
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+ }
+.promo_button {
+    display: block;
+    width: 259px;
+    height: 63px;
+    margin: 116px auto 0 auto;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+}
+.promo_button .button_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 63px;
+    color:#fff;
+    text-decoration: none;
 }
