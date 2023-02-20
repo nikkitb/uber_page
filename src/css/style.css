@@ -131,3 +131,13 @@ nav {
     color:#fff;
     text-decoration: none;
 }
+
+.adv_item {
+    display:flex;
+    justify-content: space-around;
+}
+.adv_circle {
+    width: 100px; height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
