@@ -132,12 +132,56 @@ nav {
     text-decoration: none;
 }
 
+.adv {
+    text-align: center;
+    min-height: 800px;
+    padding-top: 10px;
+}
+.adv_btn {
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.adv_header_big {    
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+}
 .adv_item {
+    min-height: 100%;
+    margin-top: 26px;
+    text-align: left;
     display:flex;
     justify-content: space-around;
 }
 .adv_circle {
-    width: 100px; height: 100px;
-    background-color: blue;
+    margin: auto auto;
+    width: 116px; height: 116px;
+    background: #1EACC7;
     border-radius: 50%;
+}
+.adv_circle img {
+    display: block;
+    margin: auto auto;
+    margin-top: 20px;
+}
+.adv_descr {
+    width: 371px;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto;
+}
+.adv_header {    
+    color: #1EACC7;
+}
+.adv_text {    
+    color: #202020;
 }
